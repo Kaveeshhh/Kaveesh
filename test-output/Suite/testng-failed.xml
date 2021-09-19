@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.scanwell.utility.Listeners"/>
-    <listener class-name="com.scanwell.utility.ExtentReporterNG"/>
-  </listeners>
   <test thread-count="5" name="TC_001(failed)">
     <classes>
       <class name="com.Framework.testsuite.TC_001">

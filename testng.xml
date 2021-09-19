@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<listeners>
+	<!-- <listeners>
 
 		<listener class-name="com.scanwell.utility.Listeners" />
 		<listener class-name="com.scanwell.utility.ExtentReporterNG" />
 
-	</listeners>
+	</listeners> -->
 	<test name="TC_001">
 		<classes>
 			<class name="com.Framework.testsuite.TC_001" />
