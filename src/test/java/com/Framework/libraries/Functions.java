@@ -49,7 +49,7 @@ public class Functions {
 		loginPage.password.sendKeys(Password);
 		loginPage.login.click();
 		
-		Assert.assertEquals(loginPage.fbHeader.getText(), "Vegi Lanka");
+		//Assert.assertEquals(loginPage.fbHeader.getText(), "Vegi Lanka");
 		
 		
 	}
